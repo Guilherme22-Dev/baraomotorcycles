@@ -1,4 +1,4 @@
-import logo from "../../imports/WhatsApp-Image-2026-03-13-at-14.52.53.svg";
+
 import { Phone, MapPin, Mail } from "lucide-react";
 
 export function Footer() {

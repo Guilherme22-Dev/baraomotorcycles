@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "../../imports/WhatsApp-Image-2026-03-13-at-14.52.53.svg";
+
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
