@@ -19,11 +19,9 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src={logo} 
-              alt="Barao Motorcycles" 
-              className="h-12 w-auto brightness-0 invert"
-            />
+           <h1 className="text-white font-bold text-xl">
+    Barão Motorcycles
+  </h1>
           </div>
 
           {/* Desktop Navigation */}

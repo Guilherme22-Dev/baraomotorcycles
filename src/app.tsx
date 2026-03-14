@@ -1,13 +1,13 @@
-import { Header } from "./app/components/header";
-import { Hero } from "./app/components/hero";
-import { Services } from "./app/components/services";
-import { About } from "./app/components/about";
-import { Contact } from "./app/components/contact";
-import { Footer } from "./app/components/footer";
+import { Header } from "./components/Header";
+import { Hero } from "./components/hero";
+import { Services } from "./components/services";
+import { About } from "./components/about";
+import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
 
 export default function App() {
   return (
-    <div className="size-full">
+    <div className="w-full scroll-smooth">
       <Header />
       <Hero />
       <Services />

@@ -15,11 +15,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Logo & Description */}
           <div className="lg:col-span-1">
-            <img 
-              src={logo} 
-              alt="Barao Motorcycles" 
-              className="h-16 w-auto mb-4 brightness-0 invert" 
-            />
+         
             <p className="text-gray-400 text-sm leading-relaxed">
               Your trusted motorcycle workshop in Edgware, London. Quality service since day one.
             </p>
