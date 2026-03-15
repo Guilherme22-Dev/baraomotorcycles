@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-
+import logo from "../imports/logo.png";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,9 +19,7 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-           <h1 className="text-white font-bold text-xl">
-    Barão Motorcycles
-  </h1>
+           <img src={logo} alt="Barao Motorcycles" className="h-20 w-35" />
           </div>
 
           {/* Desktop Navigation */}
